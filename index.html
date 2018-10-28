@@ -60,6 +60,7 @@
     </div>
 </nav>
 </header>
+
 <main class="wrapper">
 <section class="jumbotron anima-header animated">
     <div class="container text-center">
@@ -120,6 +121,7 @@
     </div>
 </section>
 </main>
+
 <footer class="footer">
 <div class="footer-attribute">
 		<div class="container">
@@ -218,6 +220,7 @@
 	</div>
 </div>
 </footer>
+
 <div class="modal animated fadeInDown" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="modalSearchTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -316,4 +319,18 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+    var pf = document.getElementById("price-first"), pl = document.getElementById("price-last"),
+        res1 = document.getElementById("result-1"), res2 = document.getElementById("result-2");
+    
+    pf.addEventListener("input", function() {
+        res1.innerHTML = "Rp. " + pf.value;
+    }, false); 
+    pl.addEventListener("input", function() {
+        res2.innerHTML = "Rp. " + pl.value;
+    }, false); 
+</script>
+
+</body>
 </HTML>
