@@ -1,1 +1,319 @@
-index.html
+<!DOCTYPE html>
+<HTML dir="ltr" lang="id">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<title>Page User (Ketika User di View)</title>
+<meta content="description" name="description"/>
+<meta content="keywords" name="keywords"/>
+<link rel="stylesheet" href="/assets/static/front/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/assets/static/front/font-awesome/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="/assets/static/front/animate/css/animate.min.css"/>
+<link rel="stylesheet" href="/assets/static/front/typeahead/css/typeahead.css"/>
+<link rel="stylesheet" href="/assets/static/dist/css/style.css"/>
+<link rel="stylesheet" href="/assets/static/dist/css/additional.css"/>
+<link rel="stylesheet" href="/assets/static/dist/css/bootstrap.css"/>
+<link rel="stylesheet" href="/assets/static/dist/css/style/index.css"/>
+<script src="/assets/static/front/jquery/js/jquery.min.js"></script>
+<script src="/assets/static/front/popper/js/popper.min.js"></script>
+<script src="/assets/static/front/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/static/front/typed/js/typed.min.js"></script>
+<script src="/assets/static/front/typeahead/js/typeahead.js"></script>
+</head>
+<body>
+<header class="header">
+<nav class="navbar fixed-top navbar-expand-lg navbar-style animated anima-navbar">
+    <div class="container">
+    <a class="navbar-brand text-uppercase animated anima-brand" href="#/">Koskosan Online</a>
+    <button class="navbar-toggler btn btn-informatics margin-right-10px" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-th"></i></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+  		    <ul id="main-navigation" class="nav navbar-nav animated anima-head-menu-left">
+			    <li class="nav-item">
+                    <a href="#/" class="nav-link font-size-14px text-uppercase">
+                        <i class="fa fa-home fa-fw"></i> 
+                        Homepage
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collapseSearch" class="nav-link font-size-14px text-uppercase" data-toggle="modal" data-target="#modalSearch">
+                        <i class="fa fa-search fa-fw"></i> 
+                        Search				
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle font-size-14px text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-star fa-fw"></i> 
+                        Most popular               
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#/popular?by=likes"><i class="fa fa-thumbs-up fa-fw"></i> Based on Likes</a>
+                        <a class="dropdown-item" href="#/popular?by=views"><i class="fa fa-eye fa-fw"></i> Based on Views</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#/popular"><i class="fa fa-folder-open fa-fw"></i> View All</a>
+                    </div>
+                </li>
+		    </ul>
+        </div>
+        <div class="nav-btn animated anima-head-menu-right">
+            <a href="#/auth/login" class="btn btn-dark margin-right-5px font-size-14px" data-placement="bottom" data-toggle="tooltip" title="Click here to login"><i class="fa fa-sign-in"></i> Login</a>
+            <a href="#/auth/register" class="btn btn-dark color-style font-size-14px" data-toggle="tooltip" data-placement="bottom" title="Click here to sign up"><i class="fa fa-user-circle"></i> Register</a>
+        </div>  
+    </div>
+</nav>
+</header>
+<main class="wrapper">
+<section class="jumbotron anima-header animated">
+    <div class="container text-center">
+        <p class="lead"><span class="typed"></span></p>
+    </div>
+</section>
+<section class="main anima-main animated">
+    <div class="container">
+        <div class="row margin-bottom-15px">
+            <div class="col-md-6 text-left text-uppercase">
+                <h5 class="no-margin new-text"><i class="fa fa-info-circle"></i> The latest</h5>
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <a href="#/new" class="btn btn-success font-size-13px"><i class="fa fa-folder-open-o"></i> View All</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#/kost/pameuntasan" class="waves-effect waves-light"><img class="card-img-top img-home-new " src="/assets/images/kost/id/1527329066-thumb-1.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                        <h5 class="card-title margin-bottom-0px"><a href="#/kost/pameuntasan">Pameuntasan</a></h5>
+                    </div>
+                    <div class="ss" style="border-top:0px solid #ddd;border-bottom:1px solid #ddd;    padding: 0rem 1.25rem;">
+                    <div class="collapse" id="collapseContent46">
+                    <table class="table margin-bottom-0px">
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-fw">Rp.</i> 5,000,000.00</td>
+                            <td><i class="fa fa-play fa-fw"></i> 1 Year</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-map-marker fa-fw"></i> Bandung</td>
+                            <td><i class="fa fa-user fa-fw"></i> Men</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    <hr style="margin:0;"/>
+                    <div class="text-center margin-top-20px margin-bottom-20px">
+                        <a style="width:100%;" href="#/kost/pameuntasan" class="card-link btn btn-success"><i class="fa fa-folder-open fa-fw"></i> See full</a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <button class="btn btn-dark"><i class="fa fa-heart fa-fw"></i> 0</button>
+                                <button class="btn btn-dark"><i class="fa fa-eye fa-fw"></i> 31x</button>
+                            </div>
+                            <div class="col-md-3 text-right">
+                                <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseContent46" aria-expanded="false" aria-controls="collapseContent46"><i class="fa fa-folder-open fa-fw"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-attribute">
+		<div class="container">
+			<div class="row">	
+				<div class="col-md-3">
+					<div class="footer-content">
+						<div class="footer-header">
+                            <h2>We Are</h2>
+                        </div>
+						<div class="footer-body list">
+							<ul class="counter">
+								<li class="item"><a href="#"><i class="fa fa-briefcase fa-fw"></i> About Us</a></li>
+                                <li class="item"><a href="#"><i class="fa fa-briefcase fa-fw"></i> Contact Us</a></li>
+                                <li class="item"><a href="#"><i class="fa fa-briefcase fa-fw"></i> Privasi Policy</a></li>
+                                <li class="item"><a href="#"><i class="fa fa-briefcase fa-fw"></i> Terms of Service</a></li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-content">
+						<div class="footer-header">
+                            <h2>Support</h2>
+                        </div>
+						<div class="footer-body list">
+							<ul class="counter">
+                                <li class="item"><a href="#"><i class="fa fa-question-circle fa-fw"></i> Questions</a></li>
+                                <li class="item"><a href="#"><i class="fa fa-question-circle fa-fw"></i> Knowledge</a></li>
+                                <li class="item"><a href="#"><i class="fa fa-question-circle fa-fw"></i> Report</a></li>
+                                <li class="item"><a href="#"><i class="fa fa-question-circle fa-fw"></i> Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+                <div class="col-md-6">
+					<div class="footer-content">
+                        <div class="footer-header">
+                            <h2>Enter email for newsletter</h2>
+                        </div>
+						<div class="footer-body">
+                            <div class="input-group margin-top-20px margin-bottom-10px">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text newsletter-left" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                                </div>
+                                <input type="text" class="form-control newsletter-center" placeholder="yourname@email.com" aria-label="Email" aria-describedby="basic-addon1">
+                                <button type="submit" class="btn btn-success newsletter-right"><i class="fa fa-paper-plane"></i></button>
+                            </div>
+                            <hr class="hrhr"/>
+                            <div class="homesocmed">
+                                <ul class="homesocmed">
+                                    <li class="social-wrapper"><a class="social-item social-facebook" data-placement="top" data-toggle="tooltip" href="https://www.facebook.com/" rel="nofollow" target="_blank" title="Find us on Facebook"><i class="fa fa-facebook social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-twitter" data-placement="top" data-toggle="tooltip" href="https://www.twitter.com/" rel="nofollow" target="_blank" title="Find us on Twitter"><i class="fa fa-twitter social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-google-plus" data-placement="top" data-toggle="tooltip" href="https://plus.google.com/" rel="nofollow" target="_blank" title="Find us on Google+"><i class="fa fa-google-plus-circle social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-instagram" data-placement="top" data-toggle="tooltip" href="https://www.instagram.com/" rel="nofollow" target="_blank" title="Find us on Instagram"><i class="fa fa-instagram social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-youtube" data-placement="top" data-toggle="tooltip" href="https://www.youtube.com/" rel="nofollow" target="_blank" title="Find us on Youtube"><i class="fa fa-youtube social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-google-map" data-placement="top" data-toggle="tooltip" href="https://maps.google.com/" rel="nofollow" target="_blank" title="Find us on Google Maps"><i class="fa fa-map-o social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-linkedin" data-placement="top" data-toggle="tooltip" href="https://www.linkedin.com/" rel="nofollow" target="_blank" title="Find us on Linkedin"><i class="fa fa-linkedin social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-pinterest" data-placement="top" data-toggle="tooltip" href="https://www.pinterest.com/" rel="nofollow" target="_blank" title="Find us on Pinterest"><i class="fa fa-pinterest social-icon"></i></a></li>
+                                    <li class="social-wrapper"><a class="social-item social-whatsapp" data-placement="top" data-toggle="tooltip" href="https://web.whatsapp.com/" rel="nofollow" target="_blank" title="Find us on WhatsApp"><i class="fa fa-whatsapp social-icon"></i></a></li>
+                                </ul>
+                            </div>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+</div>
+<div class="footer-credit">
+	<div class="container">
+		<div class="row">
+			<div class="elem-left col-md-6">
+			Copyright © 2018 <a href="#">Koskosan Online</a> – All right reserved<br> Created and Designed with <i class="fa fa-heart fa-fw"></i> and <i class="fa fa-coffee fa-fw"></i> </a>
+			</div>
+			<div class="elem-right col-md-6 text-right">
+                <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+                <form method="get" class="margin-top-3px">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Language</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01" name="lang" onchange="if(this.value != 0) { this.form.submit(); }">
+                        <option value="en-us" selected>English</option>
+                        <option value="id-id" >Indonesia</option>
+                        <option value="ja-jp" >Japanese</option>
+                    </select>
+                </div>
+                </form>
+                </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+<div class="modal animated fadeInDown" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="modalSearchTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalSearchTitle"><i class="fa fa-search fa-fw"></i> Search</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form method="get" name="search" action="#/query">
+        <input type="text" name="type" value="search" style="display:none;">
+        <div class="form-group">
+            <input type="text" name="title" class="form-control" placeholder="Name of Boarding" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="typeahead__container">
+                <div class="typeahead__field">            
+                    <input type="search" name="city" placeholder="City, example: Bandung" class="form-control js-typeahead-country_v1" required>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success"><i class="fa fa-search fa-fw"></i> Search</button>
+        </div>
+       </form>
+      </div>
+      <div class="modal-footer">
+        <a data-dismiss="modal" data-toggle="modal" href="#modalSearchFilter" class="btn btn-dark text-uppercase font-size-13px" data-target="#modalSearchFilter"><i class="fa fa-filter fa-fw"></i> Go Filter</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal animated fadeInUp" id="modalSearchFilter" tabindex="-1" role="dialog" aria-labelledby="modalSearchFilterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalSearchFilterTitle"><i class="fa fa-filter fa-fw"></i> Filter</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form method="get" name="search" action="#/query">
+        <input type="text" name="type" value="filter" style="display:none;">
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group">
+            <label for="inputState"><i class="fa fa-user fa-fw"></i> Status</label>
+              <select id="inputState" class="form-control" name="status">
+                <option value="1" selected>Men</option>
+                <option value="2">Women</option>
+                <option value="3">Mix</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="exampleInputEmail1"><i class="fa fa-map-marker fa-fw"></i> City</label>
+              <div class="typeahead__container">
+                <div class="typeahead__field">            
+                    <input type="search" name="city" placeholder="City, example: Bandung" class="form-control js-typeahead-country_v1" required>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group">
+            <label for="slider-1">First Money</label>
+              <input id="price-first" type="range" class="form-control" name="money-first" id="slider-1" value="60" min="0" max="100000000" />
+              <p id="result-1"></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+            <label for="slider-1">Last Money</label>
+              <input id="price-last" type="range" class="form-control" name="money-last" id="slider-1" value="60" min="0" max="100000000" />
+              <p id="result-2"></p>
+            </div>
+          </div>
+        </div>
+        <div class="margin-top-20px text-center">
+            <button type="submit" class="btn btn-success"><i class="fa fa-filter fa-fw"></i> Filter</button>
+        </div>
+       </form>
+      </div>
+      <div class="modal-footer">
+      <a data-dismiss="modal" data-toggle="modal" href="#modalSearch" class="btn btn-dark text-uppercase font-size-13px" data-target="#modalSearch"><i class="fa fa-search fa-fw"></i> Go Search</a>
+      </div>
+    </div>
+  </div>
+</div>
+</HTML>
