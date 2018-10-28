@@ -61,64 +61,92 @@
 </nav>
 </header>
 <main class="wrapper">
-<section class="jumbotron anima-header animated">
-    <div class="container text-center">
-        <p class="lead"><span class="typed"></span></p>
-    </div>
-</section>
-<section class="main anima-main animated">
-    <div class="container">
-        <div class="row margin-bottom-15px">
-            <div class="col-md-6 text-left text-uppercase">
-                <h5 class="no-margin new-text"><i class="fa fa-info-circle"></i> The latest</h5>
-            </div>
-            <div class="col-md-6 text-right text-uppercase">
-                <a href="#new" class="btn btn-success font-size-13px"><i class="fa fa-folder-open-o"></i> View All</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <a href="#" class="waves-effect waves-light"><img class="card-img-top img-home-new " src="/assets/images/kost/id/1527329066-thumb-1.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                        <h5 class="card-title margin-bottom-0px"><a href="#">Pameuntasan</a></h5>
-                    </div>
-                    <div class="ss" style="border-top:0px solid #ddd;border-bottom:1px solid #ddd;    padding: 0rem 1.25rem;">
-                    <div class="collapse" id="collapseContent46">
-                    <table class="table margin-bottom-0px">
-                    <tbody>
-                        <tr>
-                            <td><i class="fa-fw">Rp.</i> 5,000,000.00</td>
-                            <td><i class="fa fa-play fa-fw"></i> 1 Year</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa fa-map-marker fa-fw"></i> Bandung</td>
-                            <td><i class="fa fa-user fa-fw"></i> Men</td>
-                        </tr>
-                    </tbody>
-                    </table>
-                    <hr style="margin:0;"/>
-                    <div class="text-center margin-top-20px margin-bottom-20px">
-                        <a style="width:100%;" href="#" class="card-link btn btn-success"><i class="fa fa-folder-open fa-fw"></i> See full</a>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <button class="btn btn-dark"><i class="fa fa-heart fa-fw"></i> 0</button>
-                                <button class="btn btn-dark"><i class="fa fa-eye fa-fw"></i> 31x</button>
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <a class="waves-effect waves-light" href="#"><img src="/images/users/profile/id/profile-1.jpg" class="profile-images" alt="Profile"/></a>
+                            <h3><a href="#">APajar P R</a></h3>
+                            <a href="#"><i class="fa fa-at fa-fw"></i>apajarpr</a>
+                            <hr/>
+                            <div class="text-left">
+                                <i class="fa fa-check-circle fa-fw"></i> User Verified<br/>
+                                <i class="fa fa-cloud-upload fa-fw"></i> User Publisher<br/>
+                                <i class="fa fa-calendar fa-fw"></i> 17 Jan 2018
                             </div>
-                            <div class="col-md-3 text-right">
-                                <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseContent46" aria-expanded="false" aria-controls="collapseContent46"><i class="fa fa-folder-open fa-fw"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="text-center">
+                            <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-profile active" id="pills-publish-tab" data-toggle="pill" href="#pills-publish" role="tab" aria-controls="pills-publish" aria-selected="false">Publish</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-profile" id="pills-likes-tab" data-toggle="pill" href="#pills-likes" role="tab" aria-controls="pills-likes" aria-selected="true">Likes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-likes" role="tabpanel" aria-labelledby="pills-likes-tab">
+                            <div class="margin-top-20px">
+                                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                    There is no Likes
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>                   
                             </div>
+                        </div>
+                        <div class="tab-pane fade  show active" id="pills-publish" role="tabpanel" aria-labelledby="pills-publish-tab">
+                            <div class="margin-top-20px">
+                                <div class="row">                                            
+                                    <div class="col-md-12">
+                                        <div class="card margin-bottom-20px">
+                                            <img class="card-img-top img-home-new" src="/assets/images/kost/id/1527329066-thumb-1.jpg" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title margin-bottom-0px">Pameuntasan</h5>
+                                                </div>
+                                                <div class="ss" style="border-top:0px solid #ddd;border-bottom:1px solid #ddd;    padding: 0rem 1.25rem;">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><i class="fa-fw">Rp.</i> 5,000,000.00</td>
+                                                                <td><i class="fa fa-play fa-fw"></i>  1 Year</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-map-marker fa-fw"></i> Bandung</td>
+                                                                <td><i class="fa fa-user fa-fw"></i> Men</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-md-9">
+                                                            <button class="btn btn-dark"><i class="fa fa-heart fa-fw"></i> 0</button>
+                                                            <button class="btn btn-dark"><i class="fa fa-eye fa-fw"></i> 33x</button>
+                                                        </div>
+                                                        <div class="col-md-3 text-right">
+                                                            <a href="https://students.apajarpr.com/kost/pameuntasan" class="card-link btn btn-success text-right"><i class="fa fa-folder-open fa-fw"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                        
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 </main>
 <footer class="footer">
 <div class="footer-attribute">
