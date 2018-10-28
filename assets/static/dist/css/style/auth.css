@@ -1,0 +1,42 @@
+.main {
+	margin: 0rem;
+}
+.main-auth {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.card-wrapper {
+    width: 400px;
+    padding: 100px 0 0;
+}
+.card {
+    border-color: transparent;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .05);
+}
+.card.fat {
+    padding: 10px;
+}
+.card .card-title {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.form-group label {
+    width: 100%
+}
+.strength-meter{
+    position: absolute;
+    right: 56px;
+    top: 8px;
+    border-radius: 3px;
+    border-width: 0px 0px 2px!important;
+}
+.img-user-auth {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

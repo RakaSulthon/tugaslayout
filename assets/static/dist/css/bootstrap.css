@@ -1,0 +1,40 @@
+/*!
+ * Kosan v1.0.0 
+ * Copyright 2018 APajar P R (https://www.apajarpr.com)
+ * Licensed under MIT
+ */
+
+/* Bootstrap Costume */
+.jumbotron{
+    padding: 2rem 2rem;
+    border-radius: 0px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.display-4 {
+    font-size: 2.5rem;
+}
+.custom-select, .input-group-text, .btn {
+    border-radius: 3px;
+}
+.dropdown-menu a{
+    color: #111111;
+}
+.dropdown-item {
+	padding: .25rem 1rem;
+}
+.dropdown-header {
+    padding: .5rem 0.9rem;
+}
+.list-group-item.active {
+    background-color: #2E7D32;
+    border-color: #2E7D32;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #2E7D32;
+}

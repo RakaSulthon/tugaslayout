@@ -1,0 +1,7 @@
+.anima-navbar {-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; -webkit-animation-name:fadeInDown;animation-name:fadeInDown}
+.anima-brand {-webkit-animation-delay: 2s; -moz-animation-delay: 2s; -webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
+.anima-header {-webkit-animation-delay: 1s; -moz-animation-delay: 1s; -webkit-animation-name:fadeInDown;animation-name:fadeInDown}
+.anima-head-menu-left {-webkit-animation-delay: 1.5s; -moz-animation-delay: 1.5s; -webkit-animation-name:fadeInDown;animation-name:fadeInDown}
+.anima-head-menu-right {-webkit-animation-delay: 2s; -moz-animation-delay: 2s; -webkit-animation-name:fadeInRight;animation-name:fadeInRight}
+.anima-head-title {-webkit-animation-delay: 2.5s; -moz-animation-delay: 2.5s; -webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}
+.anima-main {-webkit-animation-delay: 2s; -moz-animation-delay: 2s; -webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}

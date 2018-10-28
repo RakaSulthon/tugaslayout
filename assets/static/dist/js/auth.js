@@ -1,0 +1,42 @@
+$(function() {
+	$("input[type='password'][data-eye]").each(function(i) {
+		let $this = $(this);
+
+		$this.wrap($("<div/>", {
+			style: 'position:relative'
+		}));
+		$this.css({
+			paddingRight: 60
+		});
+		$this.after($("<div/>", {
+			html: '<i class="fa fa-eye"></i>',
+			class: 'btn btn-success btn-sm',
+			id: 'passeye-toggle-'+i,
+			style: 'position:absolute;right:10px;top:50%;transform:translate(0,-50%);padding: 2px 7px;font-size:12px;cursor:pointer;'
+		}));
+		$this.after($("<input/>", {
+			type: 'hidden',
+			id: 'passeye-' + i
+		}));
+		$this.on("keyup paste", function() {
+			$("#passeye-"+i).val($(this).val());
+		});
+		$("#passeye-toggle-"+i).on("click", function() {
+			if($this.hasClass("show")) {
+				$this.attr('type', 'password');
+				$this.removeClass("show");
+				$(this).removeClass("btn-outline-success");
+			}else{
+				$this.attr('type', 'text');
+				$this.val($("#passeye-"+i).val());				
+				$this.addClass("show");
+				$(this).addClass("btn-outline-success");
+			}
+		});
+	});
+	$(".main").backstretch([
+		"../cdndata/assets/images/img/slide1.jpg"
+	  , "../cdndata/assets/images/img/slide2.jpg"
+	  , "../cdndata/assets/images/img/slide3.jpg"
+	], {duration: 3000, fade: 750});
+});
